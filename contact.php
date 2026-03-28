@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Vollkorn:regular,bold&subset=latin' rel='stylesheet' type='text/css'>
+	<link rel="icon" type="image/png" href="/images/favicon.png" />
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="en-ie" />
+	<meta name="keywords" content="cabana, mira, harper, ski, skiing, alpine, romania, holiday, trip, snowboarding, snow, mountains, travel, borsa, maramures, romania" />
+	<meta name="description" content="The Harper Alpine 'Cabana Mira' is a beautiful new ski cabin located in the Maramures region of Romania available for rent to groups and individuals." />
+	<meta name="rating" content="General" />
+	<meta name="ROBOTS" content="ALL" />
+
+	<title>Harper Alpine | Cabana Mira is a beautiful, newly built ski cabin perfectly situated beside Borsa Ski Resort, Romania</title>
+
+	<link rel="stylesheet" type="text/css" media="all" href="css/reset.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/text.css" />
+	<link rel="stylesheet" type="text/css" media="all" href="css/960.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/tipsy.css" />
+
+	<link rel="stylesheet" type="text/css" media="screen" href="css/nivo-slider.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/custom-nivo-slider.css" />
+
+	<script src="js/main.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/formvalidate.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+	<script src="js/jquery.tipsy.js" type="text/javascript"></script>
+	<script type="text/javascript">$(window).load(function() {$('#slider').nivoSlider({
+		effect:'fade', //Specify sets like: 'fold,random,sliceDown'
+		slices:15,
+		animSpeed:500,
+		pauseTime:4000,
+		startSlide:0, //Set starting Slide (0 index)
+		directionNav:true, //Next & Prev
+		directionNavHide:true, //Only show on hover
+		controlNav:true, //1,2,3...
+		controlNavThumbs:false, //Use thumbnails for Control Nav
+      controlNavThumbsFromRel:false, //Use image rel for thumbs
+		controlNavThumbsSearch: '.jpg', //Replace this with...
+		controlNavThumbsReplace: '_thumb.jpg', //...this in thumb Image src
+		keyboardNav:true, //Use left & right arrows
+		pauseOnHover:true, //Stop animation while hovering
+		manualAdvance:false, //Force manual transitions
+		captionOpacity:0.8, //Universal caption opacity
+		beforeChange: function(){},
+		afterChange: function(){},
+		slideshowEnd: function(){} //Triggers after all slides have been shown
+	});});</script>
+
+
+	<script type="text/javascript">
+			$(document).ready(function(){
+				//back to top scroll function. Any link with a hash (#) will scroll to that id on the page
+				$('a[href*=#]').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+				&& location.hostname == this.hostname) {
+					var $target = $(this.hash);
+					$target = $target.length && $target
+					|| $('[name=' + this.hash.slice(1) +']');
+					if ($target.length) {
+						var targetOffset = $target.offset().top;
+						$('html,body')
+						.animate({scrollTop: targetOffset}, 500);
+						return false;
+						}
+					}
+				});
+			});
+		</script>
+
+		<script type='text/javascript'>
+		  $(function() {
+
+			$('#next').tipsy({gravity: 's'}); // nw | n | ne | w | e | sw | s | se
+		    $('#all').tipsy({gravity: 's'});
+
+		  });
+		</script>
+
+
+
+<!----------------------Analytics----------------------->
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-16996093-5']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		<script src='https://www.google.com/recaptcha/api.js'></script>
+	</head>
+	<body>
+
+	<div class="container_12">
+
+		<div id="header">
+
+			<div id="top_bar">
+				<a href="http://cabanaborsa.wordpress.com/">Visit our Romanian site <img src="images/romanian_flag.jpg" width="18" height="12" alt="Visit the Romanian site" title="Visit our Romanian site"/></a>
+			</div>
+
+			<div id="logo"><a href="http://harperalpine.com"><h1>Harper Alpine</h1><br/><h2>Cabana Borsa</h2></a></div>
+
+			<ul id="nav">
+				<li>
+				<a href="http://harperalpine.com">Home</a>
+				</li>
+				<li>
+				<a href="about">About</a>
+				</li>
+				<li>
+				<a href="chalet">The Chalet</a>
+				</li>
+				<li>
+				<a href="gallery">Gallery</a>
+				</li>
+				<li>
+				<a href="to-do">Things To Do</a>
+				</li>
+				<li>
+				<a class="current_page" href="contact">Contact</a>
+				</li>
+
+			</ul>
+
+		</div><!-- close header -->
+
+		<div id="contact" class="grid_12 line">
+
+			<div class="grid_3 alpha">
+				<h2>Contact Us</h2>
+
+				<p>If you'd like to make a booking or just an enquiry you can do so by filling out the form or emailing the address below.</p>
+
+				<h3>Ireland</h3>
+				<div class="contactinfo">
+					<p>
+						<a class="email" href="mailto:contact@harperalpine.com">contact@harperalpine.com</a><br/>
+						<p class="phone">+353 (0)86 230 8491</p>
+						<p class="postal">Edwin Harper<br/>Cantwells Court<br/>Kilkenny<br/>Ireland</p>
+					</p>
+				</div>
+				<br/>
+				<h3>Romania</h3>
+				<div class="contactinfo">
+					<p>
+						<a class="email" href="mailto:diugancaius@yahoo.com">diugancaius@yahoo.com</a><br/>
+						<p class="phone">+40/074 219 9081</p>
+						<p class="postal">Caius Diugan<br/>Str.Negoescu 13A<br/>Borsa<br/>Romania</p>
+					</p>
+				</div>
+			</div>
+
+			<div class="grid_9 omega">
+				<iframe width="700" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=204322769383966817552.00049ca977cc15b9502e6&amp;ll=47.655278,24.663056&amp;spn=0,0&amp;iwloc=00049ca97d86f1a1b7011&amp;output=embed"></iframe><br /><small>View <a href="http://maps.google.com/maps/ms?hl=en&amp;ie=UTF8&amp;msa=0&amp;msid=204322769383966817552.00049ca977cc15b9502e6&amp;ll=47.655278,24.663056&amp;spn=0,0&amp;iwloc=00049ca97d86f1a1b7011&amp;source=embed" style="color:#0000FF;text-align:left">Cabana Mira</a> in a larger map</small>
+
+				<div id="gettingHere" class="line">
+					<h3>Getting Here</h3>
+					<div class="grid_4 alpha">
+						<h4>Option 1</h4>
+						<p>
+							Fly: Dublin &rarr; Cluj with <a href="http://www.blueairweb.com/First-Page/">Blue Air</a><br />Hire car/bus/train: Cluj &rarr; Borsa (3/4hrs).
+						</p>
+						<h4>Option 3</h4>
+						<p>
+							Fly: Dublin &rarr; Budapest(Hungary) &rarr; Cluj<br />&rarr; Hire car/bus/train: Cluj &rarr; Borsa.
+						</p>
+					</div>
+
+					<div class="grid_4 push_1 omega">
+						<h4>Option 2</h4>
+						<p>
+							Fly: Dublin &rarr; Budapest(Hungary) &rarr; Tagru Mures<br />&rarr; Hire car/bus/train: Tagru Mures &rarr; Borsa.
+						</p>
+					</div>
+				</div>
+				<div class="clear"></div>
+				<div class="line"></div>
+
+				<h3>Contact Form</h3>
+				<form action="mailer.php" method="post" accept-charset="utf-8" class="" onsubmit="return checkitout()">
+
+					<div class="grid_4 alpha">
+						<p><input type="text" name="name" value="" id="name" class="required" onblur="return isName(this)" /><label for="name">Name</label></p>
+						<p><input type="text" name="email" value="" id="email" class="required" onblur=" return isEmail(this)" /><label for="email">Email</label></p>
+	<!-- 					<p><label for="url">URL</label> <input type="text" name="url" value="" id="url" /></p> -->
+					</div>
+
+					<div class="grid_5 omega">
+  					<p><textarea name="message" id="message" rows="8" cols="40" class="required" onblur=" return isMessage(this)"></textarea><label for="message">Message</label></p>
+<!--   					<div class="g-recaptcha" data-sitekey="6Le5mRgUAAAAAN7MstoLcV5msI8VbJsMYW18HpUv"></div> -->
+					</div>
+
+					<p><input type="submit" id="submit" name="submit" value="Send" /></p>
+				</form>
+
+				<div class="clear"></div>
+
+
+
+			</div>
+		</div><!--close contact main content area-->
+		<div class="clear"></div>
+
+
+
+	<!--
+<div id="slider" class="grid_12">
+		<img src="images/touchtoneSL.png" alt="" />
+		<img src="images/triathalonSL.png" alt="" />
+		<img src="images/chaplaincySL.png" alt="" />
+	</div>
+-->
+
+	<div class="clear"></div>
+
+	<div id="footer" class="grid_12">
+		<?php
+			include('inc/footer.php');
+		?>
+	</div><!--close footer-->
+
+
+
+
+	</div><!--close container_12-->
+
+	</body>
+</html>

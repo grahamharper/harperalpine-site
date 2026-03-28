@@ -1,0 +1,11 @@
+/* TEAM */
+	Designer, developer:Graham Harper
+	Contact:grahamharper2 [at] gmail.com
+	Twitter:@grahamharper
+	From:Dublin, Ireland
+
+/* SITE */
+	Language:English
+	Doctype:XHTML1.0
+	Tools:PHP
+	IDE:Coda
