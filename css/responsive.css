@@ -1,0 +1,191 @@
+/* ================================================
+   Responsive overrides for harperalpine.com
+   960 grid → fluid layout
+   ================================================ */
+
+/* Fluid images & media globally */
+img, iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---- Fluid container below 980px ---- */
+@media screen and (max-width: 980px) {
+  .container_12 {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  #header {
+    width: 100%;
+  }
+}
+
+/* ---- Stack layout below 780px ---- */
+@media screen and (max-width: 780px) {
+
+  /* Stack all grid columns full-width */
+  .grid_1,  .grid_2,  .grid_3,  .grid_4,
+  .grid_5,  .grid_6,  .grid_7,  .grid_8,
+  .grid_9,  .grid_10, .grid_11, .grid_12 {
+    display: block !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none !important;
+    position: static !important;
+    left: auto !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box;
+  }
+
+  /* ---- Header ---- */
+  #header {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  #logo {
+    position: static;
+    margin: 0 0 12px 0;
+  }
+
+  #logo a {
+    width: 180px;
+    height: 90px;
+    background-size: contain;
+  }
+
+  #nav {
+    top: 0;
+    text-align: left;
+    font-size: 13px;
+  }
+
+  #nav li {
+    margin: 0 12px 0 0;
+  }
+
+  /* ---- Homepage ---- */
+  #welcome {
+    height: auto;
+    padding: 16px 0;
+  }
+
+  #sliderShadow {
+    display: none;
+  }
+
+  .spacer {
+    height: 20px;
+  }
+
+  /* Nivo slider: fluid width, preserve JS-set height */
+  #slider,
+  .nivoSlider {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Slider images are absolutely positioned by nivoSlider JS —
+     make them fill the container width but don't touch height */
+  .nivoSlider img,
+  .nivo-main-image {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Homepage three columns (We're Open, New Website, Testimonials) */
+  .colTitle {
+    margin-top: 20px;
+  }
+
+  /* ---- Gallery: 2 thumbs per row ---- */
+  .thumb {
+    width: 47% !important;
+    float: left !important;
+    margin-right: 3% !important;
+    margin-bottom: 3% !important;
+    height: auto !important;
+    box-sizing: border-box;
+  }
+
+  .thumb:nth-child(2n) {
+    margin-right: 0 !important;
+  }
+
+  .thumb img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Gallery section headings */
+  #living, #kitchen, #bedrooms, #outside {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  /* ---- Contact: stack map below info ---- */
+  #contact .grid_9 iframe {
+    width: 100% !important;
+    height: 300px;
+  }
+
+  #gettingHere {
+    margin-bottom: 30px;
+  }
+
+  /* ---- Sidebar images (to-do page) ---- */
+  #sideBar img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
+
+  /* ---- Footer: stack columns ---- */
+  #footer .grid_4 {
+    border-top: 1px solid #e0e0e0;
+    padding-top: 12px;
+    margin-top: 8px;
+  }
+
+  #footer .grid_4:first-child {
+    border-top: none;
+    margin-top: 0;
+  }
+
+  /* ---- Top bar ---- */
+  #top_bar {
+    text-align: left;
+    margin-bottom: 12px;
+  }
+}
+
+/* ---- Gallery: also fix float inside stacking context ---- */
+@media screen and (max-width: 780px) {
+  .thumb {
+    display: block !important;
+  }
+}
+
+/* ---- Small phones (< 480px) ---- */
+@media screen and (max-width: 480px) {
+  #nav {
+    font-size: 11px;
+  }
+
+  #nav li {
+    margin: 0 8px 0 0;
+  }
+
+  /* Gallery: single column on very small screens */
+  .thumb {
+    width: 100% !important;
+    float: none !important;
+    margin-right: 0 !important;
+  }
+}
