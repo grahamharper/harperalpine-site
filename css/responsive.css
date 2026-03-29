@@ -34,11 +34,16 @@ img, iframe {
     margin-left: 0 !important;
     margin-right: 0 !important;
     float: none !important;
-    position: static !important;
     left: auto !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     box-sizing: border-box;
+  }
+
+  /* nivoSlider needs position:relative to anchor its absolute-positioned
+     control nav dots — don't override it */
+  #slider {
+    position: relative !important;
   }
 
   /* ---- Header ---- */
